@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div class="status-codes-table">
+	    <h2>Status Codes Returned (Overall)</h2>
+      <!-- Placeholder to print overall status codes tables -->
+	    <div class="status-codes-table-wrapper"></div>
+	  </div>
+	  <hr>
+	  <div class="status-code-chart-placeholder">
+	  	<h2>Status Codes Data Returned In the Last 5 Minutes</h2>
+      <!-- Placeholder to print percentage value for each status code -->
+	  	<div id="status-percentage-summary"></div>
+      <!-- Placeholder to print chart -->
+	  	<canvas id="status-code-chart"></canvas>
+	  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script> <!-- Chart.js to build chart on a page -->
+  <script src="/javascripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  padding: 50px;
+  background: #fff;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+h1 {
+	font-size: 3rem;
+	line-height: 120%;
+	color: #2b2f35;
+	margin-top: 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.25rem;
+	line-height: 110%;
+	text-align: center;
+	color: #51545d;
+}  
+
+.error-message {
+	font-size: 1rem;
+	color: red;
+	text-align: center;
+}
+
+/* Status codes table DIV wrapper */
+.status-codes-table {
+	margin-bottom: 3rem;
+}
+
+/* Table containing overall status codes values */
+table {
+	width: 80%;
+	margin: 1rem auto;
+	max-width: 500px;
+	text-align: left;
+	border-spacing: 0;
+	border: 1px solid #000;
+	background: #f6f6f5;
+}
+
+table th {
+	font-weight: bold;
+	color: #008cc1;
+}
+
+table td {
+	font-weight: normal;
+	color: #51545d;
+}
+
+table th,
+table td {
+	border: 1px solid #000;
+	font-size: 0.9rem;
+	padding: 0.3rem;
+}
+
+/* Status codes (last 5 minutes) section */
+.status-code-chart-placeholder {
+	margin: 3rem 0;
+	display: block;
+}
+
+#status-percentage-summary {
+	display: block;
+	margin: 1.25rem auto;
+	text-align:center;
+}
+
+#status-percentage-summary ul {
+	list-style-type: none;
+	color: #51545d;
+}
